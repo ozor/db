@@ -1,0 +1,1 @@
+# Theory about Databases, SQL, NoSQL, etc
