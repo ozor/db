@@ -1,0 +1,1 @@
+GRANT ALL PRIVILEGES ON sakila.* TO 'mysql'@'%';
