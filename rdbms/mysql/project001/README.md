@@ -13,6 +13,12 @@ docker exec -i mysql8_p001 sh -c 'exec mysql -uroot -pmysql' < ./sakila-db/sakil
 docker exec -i mysql8_p001 sh -c 'exec mysql -uroot -pmysql' < ./sakila-db/sakila-grant.sql
 ```
 
+В дальнейшем для запуска только:
+
+```
+docker-compose up -d
+```
+
 ## Настройка в PhpStorm
 
 ![PhpStorm Config](./files/phpstorm-config.png)
